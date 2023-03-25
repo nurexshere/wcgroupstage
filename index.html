@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>FIFA world cup</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <body>
+   
+    <h1>
+      <span class="title">FIFA GROUP STAGE DRAW</span></h1>
+    <h2>list of 16 Team</h2>
+    <ul id="teams-list"></ul>
+    <h3>
+      <span class="country ethiopia">ETHIOPIA</span>
+      <span class="country egypt">EGYPT</span>
+      <span class="country england">ENGLAND</span>
+      <span class="country cameroon">CAMEROON</span>
+      <span class="country usa">USA</span>
+      <span class="country argentina">ARGENTINA</span>
+      <span class="country brazil">BRAZIL</span>
+      <span class="country france">FRANCE</span>
+      <span class="country spain">SPAIN</span>
+      <span class="country portugal">PORTUGAL</span>
+      <span class="country sudan">SUDAN</span>
+      <span class="country mexico">MEXICO</span>
+      <span class="country germany">GERMANY</span>
+      <span class="country senegal">SENEGAL</span>
+      <span class="country north-korea">NORTH KOREA</span>
+      <span class="country mali">MALI</span>
+    </h3>
+    
+    
+    
+    <div id="groups-list"></div>
+    <button onclick="makeGroups()">DRAW GROUP</button>
+    
+  <form>
+   
+    
+    <br>
+    <button type="button" onclick="makePieChart()">Give Points to compare</button>
+  </form>
+  <canvas id="pie-chart"></canvas>
+  
+    <script src="app.js"></script>
+  </body>
+</html>

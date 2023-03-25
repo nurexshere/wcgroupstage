@@ -1,0 +1,254 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("images/hgh.jpg");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-size:cover;
+   image-rendering: pixelated;
+    
+  }
+
+ 
+  h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 50px ;
+    
+  }
+  
+  h3 .country {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .ethiopia { background-color: #2e7d32; }
+  .egypt { background-color: #b71c1c; }
+  .england { background-color: #1565c0; }
+  .cameroon { background-color: #ffeb3b; }
+  .usa { background-color: #b71c1c; }
+  .argentina { background-color: #4caf50; }
+  .brazil { background-color: #009688; }
+  .france { background-color: #ff9800; }
+  .spain { background-color: #e91e63; }
+  .portugal { background-color: #1976d2; }
+  .sudan { background-color: #795548; }
+  .mexico { background-color: #3f51b5; }
+  .germany { background-color: #607d8b; }
+  .senegal { background-color: #f44336; }
+  .north-korea { background-color: #9c27b0; }
+  .mali { background-color: #ffc107; }
+  
+  
+  h1 .title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px auto;
+  }
+  h2{
+    
+   
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 50px ;
+    color: black;
+  }
+  
+  h1 .title {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    border-radius: 10pt;
+    background-color: black;
+  }
+  
+  .title { background-color: black; }
+  
+  h3::before,
+  h3::after {
+    content: "";
+    flex: 1 1 30%;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  h3 span {
+    flex: 0 0 auto;
+    padding: 0 10px;
+    color: #333;
+  }
+  
+  
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 300;
+    border-radius: 1pt;
+    color: black;
+    
+    
+  }
+  
+
+  
+ 
+  
+  #groups-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+    margin-bottom: 1.5rem;
+    background-color: burlywood;
+    border-radius: 10pt;
+    border: 4px  black;
+    color: black;
+  }
+  
+  .group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease-in-out;
+    font-weight: 100;
+  }
+  
+  .group-item:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .group-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .group-item ul {
+    margin-bottom: 0.5rem;
+  }
+  
+  .group-item li {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  
+  
+  #points-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  canvas {
+    border-radius: 5px;
+    border: 1px solid brown;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+  }
+  
+  
