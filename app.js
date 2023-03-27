@@ -36,7 +36,7 @@ const teams = ["ETHIOPIA","EGYPT", "ENGLAND", "CAMEROON", "USA", "ARGENTINA", "B
       }
       
       function makePieChart() {
-        const groupIndex = prompt("Enter group index (A-D) to compare:");
+        const groupIndex = prompt("Choose a group from (A-D) want to compare:");
         const groupLetter = groupIndex.trim().toUpperCase();
         const groupNumber = groupLetter.charCodeAt(0) - 65;
         if (isNaN(groupNumber) || groupNumber < 0 || groupNumber >= groups.length) {
